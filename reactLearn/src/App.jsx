@@ -1,6 +1,12 @@
+import Count from './Count'
+
+
 function App() {
   return (
-    <div>App</div>
+    <div>
+      <Count />
+    
+    </div>
   )
 }
 
