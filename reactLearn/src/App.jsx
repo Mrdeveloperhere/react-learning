@@ -1,10 +1,10 @@
-import Count from './Count'
+import PasswordCreate from './PasswordCreate.jsx'
 
 
 function App() {
   return (
-    <div>
-      <Count />
+     <div >
+      <PasswordCreate />
     
     </div>
   )
