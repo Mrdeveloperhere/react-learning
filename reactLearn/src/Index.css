@@ -1,6 +1,6 @@
 
 @import "tailwindcss";
 
-body {
-	@apply  p-6 bg-gray-800  text-orange-300;
-}
+/* body {
+	//@apply  bg-gray-800  text-orange-300;
+} */

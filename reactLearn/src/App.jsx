@@ -1,11 +1,12 @@
-import Currency from './Currency.jsx'
+import Header from "./components/Header/Header"
+
 
 
 
 function App() {
   return (
      <div >
-     <Currency />
+     <Header />
     </div>
   )
 }
