@@ -1,11 +1,11 @@
-import PasswordCreate from './PasswordCreate.jsx'
+import Currency from './Currency.jsx'
+
 
 
 function App() {
   return (
      <div >
-      <PasswordCreate />
-    
+     <Currency />
     </div>
   )
 }
