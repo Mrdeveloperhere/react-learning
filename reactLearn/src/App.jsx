@@ -1,4 +1,6 @@
-import Header from "./components/Header/Header"
+import Login from "./components/Login"
+import Profile from "./components/Profile"
+import UserContextprovider from "./Hooks/UserContextprovider"
 
 
 
@@ -6,7 +8,11 @@ import Header from "./components/Header/Header"
 function App() {
   return (
      <div >
-     <Header />
+     <UserContextprovider>
+      <h2>Welcome to the App</h2>
+      <Login />
+      <Profile />
+      </UserContextprovider>
     </div>
   )
 }
