@@ -4,3 +4,9 @@
 /* body {
 	//@apply  bg-gray-800  text-orange-300;
 } */
+
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+/* In your CSS file */
+@theme {
+  --color-primary: #3b82f6;
+}
